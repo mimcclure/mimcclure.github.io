@@ -13,10 +13,6 @@ body{
     top: 0;
 }
 
-.footer {
-    text-align: center;
-    
-}
 .intro{
     text-align: center;
     margin-top: 250px;
@@ -52,8 +48,16 @@ body{
 
 a{
     color: white;
-    overflow: hidden;
-    margin-top: 100px;
-    margin-inline-start: 900px;
-    margin-inline-end: -890px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.footer{
+    position: absolute;
+    bottom: 10;
+    margin-top: 5%;
+    margin-left: 47%;
 }
