@@ -1,4 +1,4 @@
-@import url("fontawesome-all.min.css");
+@import url("font-awesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
 body{
     background-color: #000000;
@@ -13,6 +13,10 @@ body{
     top: 0;
 }
 
+.footer {
+    text-align: center;
+    
+}
 .intro{
     text-align: center;
     margin-top: 250px;
@@ -23,7 +27,6 @@ body{
     width: 30%;
     text-align: center;
     background-color: #1f1f1f;
-    --border: .5px solid slategrey;
     border-radius: 10px;
     line-height: 1.3em;
     font-weight: 300;
@@ -48,16 +51,8 @@ body{
 
 a{
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-}
-
-.footer{
-    position: absolute;
-    bottom: 10;
-    margin-top: 5%;
-    margin-left: 47%;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-inline-start: 900px;
+    margin-inline-end: -890px;
 }
