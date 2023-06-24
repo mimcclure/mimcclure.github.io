@@ -1,29 +1,40 @@
 @import url("font-awesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
-body{
+
+body {
     background-color: #000000;
     color: white;
     font-size: 20px;
-    font-family: 'inherit';
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-.header{
+.root {
+    /* Add necessary styles for the "root" class */
+}
+
+.header {
     text-align: center;
     margin: auto;
     top: 0;
 }
 
-.footer {
-    text-align: center;
-    
-}
-.intro{
-    text-align: center;
-    margin-top: 250px;
-    margin-bottom: -45px;
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.info{
+#footer a {
+    margin: 0 10px;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: -50px;
+}
+
+.info {
     width: 30%;
     text-align: center;
     background-color: #1f1f1f;
@@ -32,27 +43,24 @@ body{
     font-weight: 300;
     color: white;
     font-size: 1em;
-    font-family: inherit;
+    font-family: 'Source Sans Pro', sans-serif;
     padding: 0.6em;
-    margin: auto;
+    margin: 100px auto 50px;
     margin-top: 100px;
 }
 
-.resume::before{
+.resume::before {
     content: "\a";
     white-space: pre-wrap;
-
 }
 
-.info span:resume{
+.info span.resume {
     position: absolute;
     right: 10px;
 }
 
-a{
+a {
     color: white;
-    overflow: hidden;
-    margin-top: 100px;
-    margin-inline-start: 900px;
-    margin-inline-end: -890px;
+    /* Adjust margin values as necessary */
+    margin: 100px auto;
 }
