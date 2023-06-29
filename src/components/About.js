@@ -14,7 +14,7 @@ export default function About() {
           </p>
           <div className="flex justify-center">
             <a
-              href="#contact"
+              href="mailto:mmcclure2001@gmail.com"
               className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 rounded text-lg">
               Contact Me
             </a>
