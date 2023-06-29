@@ -20,6 +20,12 @@ export default function Navbar() {
           <a href="https://drive.google.com/file/d/1_LSeN9vk7xWQLET4-2SITGVwX_QYTv8B/view?usp=sharing" target="_blank" className="mr-5 hover:text-white">
             Resume
           </a>
+          <a href="https://github.com/mimcclure" className="mr-5 hover:text-white">
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/michaelmcclure01/" className="mr-5 hover:text-white">
+            LinkedIn
+          </a>
         </nav>
         <a
           href="mailto:mmcclure2001@gmail.com"
