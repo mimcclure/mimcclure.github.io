@@ -3,7 +3,7 @@ export const projects = [
     title: "ParkMe",
     subtitle: "C#, ASP.NET Core MVC, HTML, CSS, SQL Server",
     description:
-      "A parking app for Georgia State University students and faculty.",
+      "A parking application for Georgia State University students and faculty.",
     //image: "./project-1.png",
     link: "https://github.com/CSC-4350-TR-SP2023/Team5",
   },
